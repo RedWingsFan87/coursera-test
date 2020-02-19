@@ -4,12 +4,19 @@
 	<meta charset="utf-8">
 	<title>Love Tienda - Joyería</title>
 	<style>
+	* {
+		box-sizing: border-box;
+	}
 	body {
 		margin: 0;
 		padding: 0;
-		background-color: gray;
+		background-color: white;
 	}
-
+	#background {
+		background-color: red;
+		background-repeat: repeat;
+		background-image: url("Logo.jpg");
+	}
 	#box {
 		background-color: blue;
 		padding: 10px;
@@ -32,13 +39,13 @@
 </head>
 <body>
 	<img src="Logo.jpg" width="120" height="120" alt="Logo">
-	<h1>Lovablestore.gt</h1>
+	<h1 id=background>Lovablestore.gt</h1>
 	<div>
 		<p>Se venden estos anillos</p>
 	</div>
 	<img id=box src="Anillo1.jpg" width="240" height="240" alt="Anillo1">
 	<img id=box src="Anillo2.jpg" width="240" height="240" alt="Anillo2">
-	<footer>
+	<footer id=background>
 		<p>Publicado por : Lovablestore.gt</p>
 		<p>Contáctenos</p>
 		<p>Teléfono : +502 3020-4742</p>
