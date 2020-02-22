@@ -21,22 +21,36 @@ h2 {
 	right: 0;
 }
 
-#container {
+p {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+/* Simple Responsive Framework. */
+
+.row {
+	width: 100%;
+}
+.section {
+	border: 1px solid black;
 	background-color: gray;
-	padding: 10px;
-	margin: 0;
 	position: relative;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-right: 20px;
 }
 
-#Chicken {
-	background-color: green;
+.chicken {
+	background-color: pink;
 }
 
-#Beef {
+.beef {
 	background-color: red;
+	color: white;
 }
-#Sushi {
-	background-color: blue;
+.sushi {
+	background-color: yellow;
 }
 
 /******** Large devices only ********/
@@ -45,8 +59,6 @@ h2 {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
 	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 		float: left;
-		border: 1px solid black;
-		margin: 10px;
 	}
 	.col-lg-1 {
 		width: 8.33%;
@@ -92,7 +104,6 @@ h2 {
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
 	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 		float: left;
-		border: 1px solid black;
 	}
 	.col-md-1 {
 		width: 8.33%;
@@ -138,7 +149,6 @@ h2 {
 	.col-sl-1, .col-sl-2, .col-sl3, .col-sl-4, .col-sl-5, .col-sl-6,
 	.col-sl-7, .col-sl-8, .col-sl-9, .col-sl-10, .col-sl-11, .col-sl-12 {
 		float: left;
-		border: 1px solid black;
 	}
 	.col-sl-1 {
 		width: 8.33%;
