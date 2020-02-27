@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-	background-image: url("images/restaurant-logo_large.png");
+	background-image: url("../images/restaurant-logo_large.png");
 	background-repeat: no-repeat;
 	width: 150px;
 	height: 150px;
