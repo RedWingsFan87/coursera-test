@@ -2,7 +2,7 @@ body {
 	font-size: 16px;
 	color: #fff;
 	background-color: #61122f;
-	font-family: 'Oxygen', ;
+	font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-	background-image: url("../images/restaurant-logo_large.png");
+	background-image: url("restaurant-logo_large.jpg");
 	background-repeat: no-repeat;
 	width: 150px;
 	height: 150px;
