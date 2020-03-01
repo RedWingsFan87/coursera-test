@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-.navbar-nav .nav-item {
+.navbar .nav-item {
 	text-align: center;
 }
 .navbar {
@@ -12,11 +12,13 @@
 	color: #000000;
 }
 .container {
-	background-color: #A8A4A3;
-	margin-top: 35px;
-	padding: 25px;
-	width: 90%;
-}
-h2 {
 	margin-top: 25px;
 }
+.row {
+	background-color: #A8A4A3;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+
